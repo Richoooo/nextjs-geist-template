@@ -1,0 +1,19 @@
+{
+    "name": "student-attendance/qr-system",
+    "description": "Student Attendance System with QR Code and Real-time Notifications",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "endroid/qr-code": "^4.0",
+        "phpmailer/phpmailer": "^6.0",
+        "ratchet/pawl": "^0.4",
+        "ratchet/ratchet": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "includes/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
